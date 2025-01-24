@@ -1,0 +1,81 @@
+.dashboard-recent {
+  padding: 10px;
+  border-bottom: 1px solid #f06291a0;
+}
+.dash-activity-one {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+.dash-activity-circle {
+  width: 15px;
+  background: #f06292;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.dash-activity-text {
+  font-size: 18px;
+  color: #000000bb;
+}
+.dash-recent-time {
+  font-size: 14px;
+  color: #000000a0;
+  font-weight: 500;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 1250px) {
+  .dash-activity-text {
+    font-size: 15px;
+  }
+  .dash-activity-one {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 1095px) {
+  .dash-activity-text {
+    font-size: 12px;
+  }
+  .dash-recent-time {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .dash-activity-text {
+    font-size: 10.5px;
+  }
+  .dash-activity-circle {
+    width: 15px;
+    height: 12px;
+    margin-top: 8px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .dash-activity-text {
+    font-size: 13px;
+  }
+  .dash-activity-circle {
+    width: 15px;
+    height: 14px;
+    margin-top: 8px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dash-activity-text {
+    font-size: 11px;
+  }
+  .dash-activity-circle {
+    width: 13px;
+    height: 12px;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .dash-activity-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .dash-activity-text {
+    font-size: 13px;
+  }
+}
