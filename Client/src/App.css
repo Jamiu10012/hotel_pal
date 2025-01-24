@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.cls-bx {
+  display: none;
+}
+.menu-v {
+  display: none;
+}
+.logo{
+  color: rgb(241, 115, 136);
+}
+.csd {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+}
+.css-xelq0e-MuiPickerStaticWrapper-content {
+  /* background: yellowgreen; */
+  z-index: 11143333;
+  height: 100%;
+}
+.css-j88s13-MuiPickersToolbar-root-MuiDatePickerToolbar-root {
+  display: none !important;
+}
+.css-188yni7-MuiPickersDay-root {
+  visibility: visible !important;
+  display: initial !important;
+}
+.cls-cnn {
+  font-size: 16px;
+  color: red;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  display: none !important;
+}
+.side-ske {
+  background: rgb(190, 190, 190) !important;
+  box-shadow: none !important;
+  border-radius: 20px;
+  border: 0px solid #eef7ff !important;
+}
+.small-ls-ls {
+  background: rgb(190, 190, 190) !important;
+  color: rgb(190, 190, 190) !important;
+  border: none !important;
+}
+.ske-das-top {
+  background: rgb(190, 190, 190) !important;
+  width: 100%;
+  border: none !important;
+  min-height: 200px;
+}
+.eas-col-das {
+  box-shadow: none !important;
+  border: none !important;
+  background: rgb(190, 190, 190) !important;
+}
+@media only screen and (max-width: 1000px) {
+  .menu-v {
+    display: initial;
+  }
+  .nav-ul {
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    right: 100%;
+    background: #fe598d;
+    color: #fff;
+    font-size: 20px;
+    min-height: 190vh !important;
+    z-index: 123;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 50% !important;
+    padding: 30px;
+    padding-top: 40px;
+    gap: 25px;
+  }
+  .nav-ac {
+    right: 0;
+  }
+  .cls-bx {
+    position: absolute;
+    right: 20px;
+    top: 1%;
+    font-size: 30px;
+    cursor: pointer;
+    display: initial;
+  }
+  .log-box {
+    width: 90% !important;
+  }
+}
+
+.not {
+  bottom: 0;
+}
+.contact-inp {
+  border: 1px solid #fff !important;
+  border-radius: 8px;
+  font-size: 14px !important;
+  margin-top: 10px;
+}
+.contact-inp::placeholder {
+  color: #5d4d4d;
+}
+
+.checkin [type="date"] {
+  background: transparent;
+}

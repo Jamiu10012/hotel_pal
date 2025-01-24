@@ -1,0 +1,367 @@
+.frst-loc {
+  align-items: center;
+  gap: 3px;
+}
+.lihe {
+  line-height: 80px;
+  font-weight: 700;
+}
+.eac-ind {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fe598d;
+  border-radius: 50%;
+}
+.act-ind {
+  width: 18px;
+  background: #fe598d;
+  border-radius: 15px;
+}
+.indicator {
+  z-index: 11;
+}
+.hero-section .image-container {
+  transition: transform 1s ease-in-out;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section .text-container {
+  transition: transform 1s ease-in-out;
+}
+.fav-bx {
+  border: 1px solid #fe598d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.left-about-box {
+  width: 50%;
+}
+.left-about-box img {
+  border-radius: 10px;
+  height: 100%;
+  width: 80%;
+  object-fit: cover;
+}
+.about-btn {
+  border: 1px solid #fe598d;
+  outline: none;
+}
+.right-about-box {
+  width: 50%;
+}
+.card-immg {
+  min-height: 200px;
+  background: rgb(190, 190, 190);
+  border-radius: 7px 7px 0 0;
+}
+.skeleton {
+  overflow: hidden;
+}
+.skeleton .txt-cd {
+  background: rgb(190, 190, 190);
+  color: rgb(190, 190, 190) !important;
+}
+.skeleton span {
+  background: rgb(190, 190, 190);
+  width: 100%;
+  color: rgb(190, 190, 190) !important;
+}
+.loading {
+  position: relative;
+  overflow: hidden;
+}
+.bigskl {
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+.bigskl .card-immg {
+  width: 100%;
+  height: 80vh;
+  border-radius: 0 !important;
+}
+.bigskl .txt-cd {
+  height: 100px;
+  width: 90%;
+}
+.bigskl span {
+  width: 70%;
+  height: 50px;
+}
+.loading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    rgb(216, 216, 216),
+    transparent
+  );
+  animation: loading-ans 1s linear infinite;
+}
+@keyframes loading-ans {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .book-ser-form {
+    flex-direction: column;
+    border-radius: 20px !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    gap: 15px !important;
+  }
+  .btn-ser {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .boo-cont {
+    border-radius: 20px !important;
+    bottom: -10% !important;
+  }
+  .inp-book {
+    width: 100% !important;
+    border: 1px solid #fe598d;
+  }
+  .rm-brd {
+    border: none !important;
+    width: 100%;
+    gap: 5px;
+  }
+  .rm-brd span {
+    width: 80px;
+  }
+  .smal-dero {
+    height: 65vh !important;
+  }
+  .card-box-all {
+    margin-top: 2em !important;
+  }
+  .card-prop {
+    width: 300px !important;
+  }
+
+  .indicator {
+    bottom: 55px !important;
+  }
+  .cont-hero {
+    height: 85vh;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .card-prop {
+    width: 30% !important;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .card-prop {
+    width: 30% !important;
+  }
+  .txt-cd {
+    font-size: 12px !important;
+  }
+  .body-box {
+    font-size: 12px !important;
+  }
+  .card-box-all {
+    padding: 20px !important;
+  }
+  .left-about-box img {
+    height: 300px;
+  }
+  .deco-container,
+  .about-us-container {
+    padding: 20px !important;
+  }
+  .chek-inp {
+    background: #fff !important;
+  }
+  input[date] {
+    width: 100% !important;
+  }
+  .all-cities-bx {
+    padding: 20px !important;
+  }
+  .bdy-cty {
+    width: 90% !important;
+  }
+  .boo-cont {
+    bottom: -30px !important;
+  }
+  .cont-hero {
+    height: 90vh;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .cont-hero {
+    height: 100vh;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .boo-cont {
+    bottom: -200px !important;
+  }
+  .card-box-all {
+    margin-top: 15em !important;
+  }
+
+  .smal-dero {
+    height: 100vh !important;
+  }
+  .indicator {
+    bottom: 40px !important;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .boo-cont {
+    border-radius: 20px !important;
+    bottom: -60% !important;
+  }
+
+  .location-ero {
+    margin-top: -30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .add-pad {
+    padding: 30px 20px !important;
+  }
+  .cont-hero {
+    height: 90vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card-prop {
+    width: 45% !important;
+  }
+  .about-us-container {
+    flex-direction: column;
+  }
+  .left-about-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .left-about-box img {
+    height: 100%;
+  }
+  .right-about-box {
+    width: 100%;
+  }
+  .red-ln {
+    font-size: 18px !important;
+    width: 95% !important;
+  }
+  .bdy-rd {
+    font-size: 14px !important;
+    width: 90% !important;
+  }
+  .chek-inp {
+    background: #fff !important;
+  }
+  .inp-book {
+    width: 100% !important;
+  }
+  input[type="date"] {
+    width: 100%;
+    background: #fff;
+    color: #000;
+  }
+
+  /* .hero-section {
+    height: 300px !important;
+  } */
+  .indicator {
+    bottom: 10px !important;
+  }
+  .cont-hero {
+    height: 80vh;
+  }
+  .hero-text {
+    top: -100px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .text-box {
+    padding: 2px !important;
+  }
+  .lab-book {
+    font-size: 12px !important;
+  }
+  .rm-brd {
+    align-items: flex-start !important ;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+  }
+  .rm-brd span {
+    width: 80px;
+  }
+  .chek-inp {
+  }
+  .smal-dero {
+    height: 35vh !important;
+  }
+  .boo-cont {
+    bottom: 10% !important;
+  }
+  .rd-wdt-cont {
+    width: 80%;
+  }
+  .indicator {
+    bottom: 10px !important;
+  }
+  .card-box-all {
+    margin-top: -1em !important;
+  }
+  .card-prop {
+    width: 100% !important;
+  }
+  input[type="date"] {
+    background: #fff;
+  }
+  .stat {
+    margin: 0 40px;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  .lihe {
+    font-size: 18px;
+    margin-top: -50px !important;
+  }
+  .frst-loc {
+    font-size: 13px !important;
+  }
+  .hero-section {
+    height: 55vh !important;
+  }
+  .rd-wdt-cont {
+    font-size: 10px !important;
+    margin-top: -10px !important;
+  }
+  .over-cont {
+    font-size: 13px !important;
+  }
+  .all-hero {
+    width: 100vw !important;
+  }
+  .cont-hero {
+    height: 75vh;
+  }
+  /* video {
+    height: 40vh !important;
+    object-fit: cover;
+  } */
+}
