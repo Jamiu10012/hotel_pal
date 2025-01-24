@@ -61,7 +61,11 @@ export const verifyEmail = async (req, res) => {
     // });
 
     return res.redirect(
+<<<<<<< HEAD
       `https://hotel-pal-frontend.vercel.app/user-verified`
+=======
+      `https://rental-frontend-sandy.vercel.app/user-verified`
+>>>>>>> c9903d719691829c9e860402cf0bee386d4b14ee
     );
   } catch (error) {
     res.status(500).json({ error: error.message });

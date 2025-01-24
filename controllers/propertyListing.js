@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import Property from "../models/PropertyListing.js";
+>>>>>>> c9903d719691829c9e860402cf0bee386d4b14ee
 import User from "../models/User.js";
 
 export const createProperty = async (req, res) => {
