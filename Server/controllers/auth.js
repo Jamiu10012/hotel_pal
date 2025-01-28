@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-import sendForgetPasswordEmail from "../utils/sendForgetPasswordEmail .js";
+import sendForgetPasswordEmail from "../utils/sendForgetPasswordEmail.js";
 import sendVerificationEmail from "../utils/sendVerificationEmail.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
@@ -60,9 +60,7 @@ export const verifyEmail = async (req, res) => {
     //   message: "Verify successfully. ",
     // });
 
-    return res.redirect(
-      `https://hotel-pal-frontend.vercel.app/user-verified`
-    );
+    return res.redirect(`https://hotel-pal-frontend.vercel.app/user-verified`);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
