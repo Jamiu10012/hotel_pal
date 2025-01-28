@@ -28,7 +28,6 @@
  *
  */
 import express from "express";
-import verifyToken from "../middleware/verifyToken.js";
 import {
   createBooking,
   deleteBookingByUserIdAndBookingId,
@@ -37,6 +36,7 @@ import {
   getBookingsByUserId,
   updateBookingByUserIdAndBookingId,
 } from "../controllers/booking.js";
+import verifyToken from "../middleware/verifyToken.js";
 
 const router = express.Router();
 

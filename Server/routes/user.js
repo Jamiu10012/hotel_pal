@@ -6,7 +6,6 @@ import {
   updateUserById,
 } from "../controllers/user.js";
 import verifyToken from "../middleware/verifyToken.js";
-
 const router = express.Router();
 
 // Define routes
